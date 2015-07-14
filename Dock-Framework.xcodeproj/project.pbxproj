@@ -10,10 +10,23 @@
 		44C907101AB18D530050387E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C9070F1AB18D530050387E /* main.m */; };
 		44C907131AB18D530050387E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C907121AB18D530050387E /* AppDelegate.m */; };
 		44C907161AB18D530050387E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C907151AB18D530050387E /* ViewController.m */; };
-		44C907191AB18D530050387E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C907171AB18D530050387E /* Main.storyboard */; };
 		44C9071B1AB18D530050387E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C9071A1AB18D530050387E /* Images.xcassets */; };
 		44C9071E1AB18D530050387E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44C9071C1AB18D530050387E /* LaunchScreen.xib */; };
 		44C9072A1AB18D530050387E /* Dock_FrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C907291AB18D530050387E /* Dock_FrameworkTests.m */; };
+		44C907381AB18DA00050387E /* Dock.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C907351AB18DA00050387E /* Dock.m */; };
+		44C907391AB18DA00050387E /* DockItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C907371AB18DA00050387E /* DockItem.m */; };
+		44C9073F1AB18E1B0050387E /* DockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C9073E1AB18E1B0050387E /* DockController.m */; };
+		44C907461AB1A27D0050387E /* worldcup_icon_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C907401AB1A27D0050387E /* worldcup_icon_1.png */; };
+		44C907471AB1A27D0050387E /* worldcup_icon_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C907411AB1A27D0050387E /* worldcup_icon_2.png */; };
+		44C907481AB1A27D0050387E /* worldcup_icon_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C907421AB1A27D0050387E /* worldcup_icon_3.png */; };
+		44C907491AB1A27D0050387E /* worldcup_icon_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C907431AB1A27D0050387E /* worldcup_icon_11.png */; };
+		44C9074A1AB1A27D0050387E /* worldcup_icon_22.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C907441AB1A27D0050387E /* worldcup_icon_22.png */; };
+		44C9074B1AB1A27D0050387E /* worldcup_icon_33.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C907451AB1A27D0050387E /* worldcup_icon_33.png */; };
+		44C9074D1AB1A7830050387E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C9074C1AB1A7830050387E /* Main.storyboard */; };
+		44C9074F1AB1AA3F0050387E /* tabbar_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C9074E1AB1AA3F0050387E /* tabbar_background.png */; };
+		44E805AA1B53FA0F001E59DA /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E805A91B53FA0F001E59DA /* ViewController1.m */; };
+		44E805AD1B53FA2F001E59DA /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E805AC1B53FA2F001E59DA /* ViewController2.m */; };
+		44E805B01B53FA3E001E59DA /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E805AF1B53FA3E001E59DA /* ViewController3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +47,31 @@
 		44C907121AB18D530050387E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		44C907141AB18D530050387E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		44C907151AB18D530050387E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		44C907181AB18D530050387E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44C9071A1AB18D530050387E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		44C9071D1AB18D530050387E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		44C907231AB18D530050387E /* Dock-FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dock-FrameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C907281AB18D530050387E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44C907291AB18D530050387E /* Dock_FrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dock_FrameworkTests.m; sourceTree = "<group>"; };
+		44C907341AB18DA00050387E /* Dock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dock.h; sourceTree = "<group>"; };
+		44C907351AB18DA00050387E /* Dock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dock.m; sourceTree = "<group>"; };
+		44C907361AB18DA00050387E /* DockItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DockItem.h; sourceTree = "<group>"; };
+		44C907371AB18DA00050387E /* DockItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DockItem.m; sourceTree = "<group>"; };
+		44C9073D1AB18E1B0050387E /* DockController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DockController.h; sourceTree = "<group>"; };
+		44C9073E1AB18E1B0050387E /* DockController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DockController.m; sourceTree = "<group>"; };
+		44C907401AB1A27D0050387E /* worldcup_icon_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldcup_icon_1.png; sourceTree = "<group>"; };
+		44C907411AB1A27D0050387E /* worldcup_icon_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldcup_icon_2.png; sourceTree = "<group>"; };
+		44C907421AB1A27D0050387E /* worldcup_icon_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldcup_icon_3.png; sourceTree = "<group>"; };
+		44C907431AB1A27D0050387E /* worldcup_icon_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldcup_icon_11.png; sourceTree = "<group>"; };
+		44C907441AB1A27D0050387E /* worldcup_icon_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldcup_icon_22.png; sourceTree = "<group>"; };
+		44C907451AB1A27D0050387E /* worldcup_icon_33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldcup_icon_33.png; sourceTree = "<group>"; };
+		44C9074C1AB1A7830050387E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		44C9074E1AB1AA3F0050387E /* tabbar_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_background.png; sourceTree = "<group>"; };
+		44E805A81B53FA0F001E59DA /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		44E805A91B53FA0F001E59DA /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		44E805AB1B53FA2F001E59DA /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		44E805AC1B53FA2F001E59DA /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		44E805AE1B53FA3E001E59DA /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		44E805AF1B53FA3E001E59DA /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +113,21 @@
 		44C9070C1AB18D530050387E /* Dock-Framework */ = {
 			isa = PBXGroup;
 			children = (
+				44C907331AB18DA00050387E /* Dock */,
 				44C907111AB18D530050387E /* AppDelegate.h */,
 				44C907121AB18D530050387E /* AppDelegate.m */,
 				44C907141AB18D530050387E /* ViewController.h */,
 				44C907151AB18D530050387E /* ViewController.m */,
-				44C907171AB18D530050387E /* Main.storyboard */,
 				44C9071A1AB18D530050387E /* Images.xcassets */,
+				44C9074C1AB1A7830050387E /* Main.storyboard */,
 				44C9071C1AB18D530050387E /* LaunchScreen.xib */,
 				44C9070D1AB18D530050387E /* Supporting Files */,
+				44E805A81B53FA0F001E59DA /* ViewController1.h */,
+				44E805A91B53FA0F001E59DA /* ViewController1.m */,
+				44E805AB1B53FA2F001E59DA /* ViewController2.h */,
+				44E805AC1B53FA2F001E59DA /* ViewController2.m */,
+				44E805AE1B53FA3E001E59DA /* ViewController3.h */,
+				44E805AF1B53FA3E001E59DA /* ViewController3.m */,
 			);
 			path = "Dock-Framework";
 			sourceTree = "<group>";
@@ -96,6 +135,13 @@
 		44C9070D1AB18D530050387E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				44C9074E1AB1AA3F0050387E /* tabbar_background.png */,
+				44C907401AB1A27D0050387E /* worldcup_icon_1.png */,
+				44C907411AB1A27D0050387E /* worldcup_icon_2.png */,
+				44C907421AB1A27D0050387E /* worldcup_icon_3.png */,
+				44C907431AB1A27D0050387E /* worldcup_icon_11.png */,
+				44C907441AB1A27D0050387E /* worldcup_icon_22.png */,
+				44C907451AB1A27D0050387E /* worldcup_icon_33.png */,
 				44C9070E1AB18D530050387E /* Info.plist */,
 				44C9070F1AB18D530050387E /* main.m */,
 			);
@@ -117,6 +163,19 @@
 				44C907281AB18D530050387E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44C907331AB18DA00050387E /* Dock */ = {
+			isa = PBXGroup;
+			children = (
+				44C907341AB18DA00050387E /* Dock.h */,
+				44C907351AB18DA00050387E /* Dock.m */,
+				44C907361AB18DA00050387E /* DockItem.h */,
+				44C907371AB18DA00050387E /* DockItem.m */,
+				44C9073D1AB18E1B0050387E /* DockController.h */,
+				44C9073E1AB18E1B0050387E /* DockController.m */,
+			);
+			path = Dock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +258,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44C907191AB18D530050387E /* Main.storyboard in Resources */,
+				44C907471AB1A27D0050387E /* worldcup_icon_2.png in Resources */,
+				44C9074A1AB1A27D0050387E /* worldcup_icon_22.png in Resources */,
+				44C9074B1AB1A27D0050387E /* worldcup_icon_33.png in Resources */,
+				44C9074F1AB1AA3F0050387E /* tabbar_background.png in Resources */,
+				44C907481AB1A27D0050387E /* worldcup_icon_3.png in Resources */,
 				44C9071E1AB18D530050387E /* LaunchScreen.xib in Resources */,
+				44C907461AB1A27D0050387E /* worldcup_icon_1.png in Resources */,
+				44C9074D1AB1A7830050387E /* Main.storyboard in Resources */,
 				44C9071B1AB18D530050387E /* Images.xcassets in Resources */,
+				44C907491AB1A27D0050387E /* worldcup_icon_11.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +286,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				44C907161AB18D530050387E /* ViewController.m in Sources */,
+				44E805AA1B53FA0F001E59DA /* ViewController1.m in Sources */,
+				44E805B01B53FA3E001E59DA /* ViewController3.m in Sources */,
 				44C907131AB18D530050387E /* AppDelegate.m in Sources */,
+				44C907381AB18DA00050387E /* Dock.m in Sources */,
+				44C907391AB18DA00050387E /* DockItem.m in Sources */,
+				44E805AD1B53FA2F001E59DA /* ViewController2.m in Sources */,
+				44C9073F1AB18E1B0050387E /* DockController.m in Sources */,
 				44C907101AB18D530050387E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +316,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		44C907171AB18D530050387E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				44C907181AB18D530050387E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		44C9071C1AB18D530050387E /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,6 +476,7 @@
 				44C9072F1AB18D530050387E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44C907301AB18D530050387E /* Build configuration list for PBXNativeTarget "Dock-FrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +485,7 @@
 				44C907321AB18D530050387E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DockController.h
 //  Dock-Framework
 //
 //  Created by lyt on 15/3/12.
@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DockController.h"
+#import "Dock.h"
 
-@interface ViewController : DockController
+@interface DockController : UIViewController
+
+{
+    Dock *_dock;
+}
 
 @end
-
